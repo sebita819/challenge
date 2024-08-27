@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="./assest/css/reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img class="header_logo" src="./assest/Logo.png" alt="">
+        </div>
+
+    </header>
+    <main>
+        <div class="main">
+            <div class="left">
+                <textarea id="ingresodeTexto" class="ingreso_de_texto" placeholder="Ingrese texto aqui"></textarea>
+
+                <div class="left_footer">  
+                    <img src="./assest/bi_exclamation-circle-fill.png" alt="">
+                    <span class="left_info">Solo letras minúsculas y sin acentos</span>
+                    <div class="left_button">
+                        <button id="buttonEncriptar" class="button_encriptar">Encriptar</button>
+                        <Button id="buttonDesencriptar" class="button_desencriptar">Desencriptar</Button>
+                    </div>
+                    
+                </div>
+              
+
+            </div>
+
+            <div id="right" class="right ajustar">
+                <img id="muñeco" class="muñeco" src="./assest/Muñeco.png" alt="">
+                <textarea id="mensajeFinal" class="mensaje_final ajustar" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <p id="rightInfo" class="right_info">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button id="buttonCopiar" class="button_copiar oculto">Copiar</button>
+            </div>
+        
+        </div>   
+
+        
+
+    </main>
+    <script src="./js/script.js"></script>
+
+
+
+
+    
+</body>
+</html>
